@@ -1,55 +1,52 @@
-# Lab 1
+# Adrian Vremere Resume
 
-## Fork this repo
+This repository contains a single-page HTML resume for Adrian Vremere. It was built as the first Web Development laboratory assignment and presents education, work experience, contact details, and selected software projects in a clean, browser-ready format.
 
-- Create a fork of this repo in your GitHub profile
-- Clone your forked repo on the local machine
+## Overview
 
-## Create your Resume page
+The page is fully static and does not require a build step. Everything lives in `index.html`, which makes the project easy to open locally, deploy to GitHub Pages, or extend with styling in future iterations.
 
-Create an HTML page representing your CV/Resume that you will send to your desired opened job position.
+## Included Sections
 
-The page should have multiple sections:
+- Basic information and contact links
+- Professional summary
+- Education
+- Work experience
+- Projects and technologies used
 
-- Basic information such as Name, Surname, contact details,
-- A personal or professional description of 2-3 sentences, for example: "I enjoy drawing..., I aspire to become a specialized front-end programmer..."
-- Education (School, College)
-  - For each point in education, add information about a favorite course or a pleasant memory.
-- Projects that you worked on.
-  - Link to the projects, and technologies used.
-- (Any other section you believe is necessary)
+## Tech Stack
 
-Use HTML tags that you think are relevant.
+- HTML5
 
-Use this template as your first Pull Request "Add basic index.html".
+## Project Structure
 
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - CV/Resume</title>
-  </head>
-
-  <body></body>
-</html>
+```text
+.
+├── README.md
+└── index.html
 ```
 
-**Each section should be added to the page in a separate Pull Request.**
+## Run Locally
 
-**The lab should be done in class.**
+Open `index.html` directly in a browser, or serve the folder with any static file server.
 
-**Creating a PR into this repo is forbidden and punished with -1 point.**
+Example:
 
-**Don't use merge commits, always rebase or squash PRs.**
+```bash
+python3 -m http.server 8000
+```
 
-## Bonus
+Then visit `http://localhost:8000`.
 
-- Use GitHub issues to track tasks that you are doing on this project.
+## Customization
 
-## Links
+To adapt this resume for another person, update the content in `index.html`:
 
-- https://www.w3schools.com/html/html_basic.asp
-- https://cbea.ms/git-commit/
-- https://strdr4605.com/how-i-use-git
+- name and contact information
+- summary text
+- education and work history
+- project links and technologies
+
+## Repository
+
+- GitHub: <https://github.com/mcittkmims/tum-web-lab1>
